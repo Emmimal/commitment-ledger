@@ -1,0 +1,30 @@
+# Chat-only baseline: two agents coordinating on the Minimal Item
+# Catalog Feature task purely through conversation, with no commitment
+# tracking mechanism.
+#
+# This is a hand-authored fixture illustrating a plausible coordination
+# failure, not a transcript from a live model run or a statistical
+# sample -- see README.md.
+Agent A: I will implement models/item.py.
+[EVENT] Agent A models/item.py STARTED
+Agent A: I'll implement repository/items.py.
+[EVENT] Agent A models/item.py IMPLEMENTED
+Agent B: I'll implement /items.
+[EVENT] Agent A repository/items.py STARTED
+Agent A: Starting on the repository now.
+[EVENT] Agent A repository/items.py IMPLEMENTED
+[EVENT] Agent A repository/items.py TESTED
+Agent A: repository/items.py is implemented and the tests pass.
+[EVENT] Agent A repository/items.py REPORTED
+Agent B: I will test tests/test_catalog.py.
+[EVENT] Agent B /items STARTED
+[EVENT] Agent B /items IMPLEMENTED
+Agent B: /items is wired up and calling into the repository and the pricing service.
+Agent A: Did anyone end up doing the pricing service?
+Agent B: I'm not sure -- I assumed you had it covered along with the repository.
+Agent B: I'll implement repository/items.py.
+Agent A: Wait, I already finished that one -- I posted about it a while back.
+Agent B: Oh, I must have missed that. I went ahead and built my own copy of it too, just in case.
+[EVENT] Agent B repository/items.py IMPLEMENTED
+Agent B: I'll drop my version and use yours instead.
+[EVENT] Agent B repository/items.py ABANDONED
