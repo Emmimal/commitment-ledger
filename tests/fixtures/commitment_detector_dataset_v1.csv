@@ -1,0 +1,151 @@
+id,utterance,gold_label,category,expected_verb,expected_object,object_rule,surface_form
+1,I will update repository.py.,COMMITMENT,positive,update,repository.py,file_path,I_will
+2,I will create test_item_creation.,COMMITMENT,positive,create,test_item_creation,snake_case,I_will
+3,I will delete ItemRepository.,COMMITMENT,positive,delete,ItemRepository,camel_pascal,I_will
+4,I will implement pricing.rules.,COMMITMENT,positive,implement,pricing.rules,dotted_path,I_will
+5,"I will modify ""item listing"".",COMMITMENT,positive,modify,"""item listing""",quoted,I_will
+6,I will remove /items.,COMMITMENT,positive,remove,/items,endpoint_path,I_will
+7,I will rename repository.py.,COMMITMENT,positive,rename,repository.py,file_path,I_will
+8,I will refactor item_repository.,COMMITMENT,positive,refactor,item_repository,snake_case,I_will
+9,I will update getItemById.,COMMITMENT,positive,update,getItemById,camel_pascal,I_will
+10,I will fix config.defaults.,COMMITMENT,positive,fix,config.defaults,dotted_path,I_will
+11,"I will test ""product detail"".",COMMITMENT,positive,test,"""product detail""",quoted,I_will
+12,I will document /api/items.,COMMITMENT,positive,document,/api/items,endpoint_path,I_will
+13,I will review models/item.py.,COMMITMENT,positive,review,models/item.py,file_path,I_will
+14,I will add catalog_loader.,COMMITMENT,positive,add,catalog_loader,snake_case,I_will
+15,I will create PriceCalculator.,COMMITMENT,positive,create,PriceCalculator,camel_pascal,I_will
+16,I'll update pricing.rules.,COMMITMENT,positive,update,pricing.rules,dotted_path,Ill
+17,"I'll implement ""checkout summary"".",COMMITMENT,positive,implement,"""checkout summary""",quoted,Ill
+18,I'll modify /api/items/{id}.,COMMITMENT,positive,modify,/api/items/{id},endpoint_path,Ill
+19,I'll remove tests/test_catalog.py.,COMMITMENT,positive,remove,tests/test_catalog.py,file_path,Ill
+20,I'll rename price_calculator.,COMMITMENT,positive,rename,price_calculator,snake_case,Ill
+21,I'll refactor CatalogLoader.,COMMITMENT,positive,refactor,CatalogLoader,camel_pascal,Ill
+22,I'll update models.item.,COMMITMENT,positive,update,models.item,dotted_path,Ill
+23,"I'll fix ""pricing logic"".",COMMITMENT,positive,fix,"""pricing logic""",quoted,Ill
+24,I'll test /catalog/search.,COMMITMENT,positive,test,/catalog/search,endpoint_path,Ill
+25,I'll document config/defaults.py.,COMMITMENT,positive,document,config/defaults.py,file_path,Ill
+26,I'll review stock_tracker.,COMMITMENT,positive,review,stock_tracker,snake_case,Ill
+27,I'll add LabelFormatter.,COMMITMENT,positive,add,LabelFormatter,camel_pascal,Ill
+28,I'll create services.export.,COMMITMENT,positive,create,services.export,dotted_path,Ill
+29,"I'll delete ""storage schema"".",COMMITMENT,positive,delete,"""storage schema""",quoted,Ill
+30,I'll implement /reports.,COMMITMENT,positive,implement,/reports,endpoint_path,Ill
+31,I am going to modify utils/helpers.py.,COMMITMENT,positive,modify,utils/helpers.py,file_path,I_am_going_to
+32,I am going to remove label_formatter.,COMMITMENT,positive,remove,label_formatter,snake_case,I_am_going_to
+33,I am going to rename ImportPipeline.,COMMITMENT,positive,rename,ImportPipeline,camel_pascal,I_am_going_to
+34,I am going to refactor utils.helpers.,COMMITMENT,positive,refactor,utils.helpers,dotted_path,I_am_going_to
+35,"I am going to update ""export service"".",COMMITMENT,positive,update,"""export service""",quoted,I_am_going_to
+36,I am going to fix /api/orders.,COMMITMENT,positive,fix,/api/orders,endpoint_path,I_am_going_to
+37,I am going to test api/routes.py.,COMMITMENT,positive,test,api/routes.py,file_path,I_am_going_to
+38,I am going to document import_pipeline.,COMMITMENT,positive,document,import_pipeline,snake_case,I_am_going_to
+39,I am going to review ResultCache.,COMMITMENT,positive,review,ResultCache,camel_pascal,I_am_going_to
+40,I am going to add storage.schema.,COMMITMENT,positive,add,storage.schema,dotted_path,I_am_going_to
+41,"I am going to create ""result store"".",COMMITMENT,positive,create,"""result store""",quoted,I_am_going_to
+42,I am going to delete /api/orders/{id}.,COMMITMENT,positive,delete,/api/orders/{id},endpoint_path,I_am_going_to
+43,I am going to implement storage/schema.py.,COMMITMENT,positive,implement,storage/schema.py,file_path,I_am_going_to
+44,I am going to modify result_cache.,COMMITMENT,positive,modify,result_cache,snake_case,I_am_going_to
+45,I am going to remove BatchLimiter.,COMMITMENT,positive,remove,BatchLimiter,camel_pascal,I_am_going_to
+46,I'm going to rename api.routes.,COMMITMENT,positive,rename,api.routes,dotted_path,Im_going_to
+47,"I'm going to refactor ""batch limiter"".",COMMITMENT,positive,refactor,"""batch limiter""",quoted,Im_going_to
+48,I'm going to update /health.,COMMITMENT,positive,update,/health,endpoint_path,Im_going_to
+49,I'm going to fix services/pricing.py.,COMMITMENT,positive,fix,services/pricing.py,file_path,Im_going_to
+50,I'm going to test batch_limiter.,COMMITMENT,positive,test,batch_limiter,snake_case,Im_going_to
+51,I'm going to document StockTracker.,COMMITMENT,positive,document,StockTracker,camel_pascal,Im_going_to
+52,I'm going to review cache.layer.,COMMITMENT,positive,review,cache.layer,dotted_path,Im_going_to
+53,"I'm going to add ""change log"".",COMMITMENT,positive,add,"""change log""",quoted,Im_going_to
+54,I'm going to create /api/exports.,COMMITMENT,positive,create,/api/exports,endpoint_path,Im_going_to
+55,I'm going to delete scripts/seed.py.,COMMITMENT,positive,delete,scripts/seed.py,file_path,Im_going_to
+56,I'm going to implement change_history.,COMMITMENT,positive,implement,change_history,snake_case,Im_going_to
+57,I'm going to modify ChangeHistory.,COMMITMENT,positive,modify,ChangeHistory,camel_pascal,Im_going_to
+58,I'm going to remove catalog.loader.,COMMITMENT,positive,remove,catalog.loader,dotted_path,Im_going_to
+59,"I'm going to rename ""cache layer"".",COMMITMENT,positive,rename,"""cache layer""",quoted,Im_going_to
+60,I'm going to refactor /api/stock.,COMMITMENT,positive,refactor,/api/stock,endpoint_path,Im_going_to
+61,Agent B will update repository.py.,NOT_MY_COMMITMENT,third_person,update,repository.py,n/a (not first-person),third_person
+62,Agent B will add config/defaults.py.,NOT_MY_COMMITMENT,third_person,add,config/defaults.py,n/a (not first-person),third_person
+63,Agent C is going to create utils/helpers.py.,NOT_MY_COMMITMENT,third_person,create,utils/helpers.py,n/a (not first-person),third_person
+64,She'll delete api/routes.py.,NOT_MY_COMMITMENT,third_person,delete,api/routes.py,n/a (not first-person),third_person
+65,He will implement storage/schema.py.,NOT_MY_COMMITMENT,third_person,implement,storage/schema.py,n/a (not first-person),third_person
+66,They're going to modify services/pricing.py.,NOT_MY_COMMITMENT,third_person,modify,services/pricing.py,n/a (not first-person),third_person
+67,Agent B will remove scripts/seed.py.,NOT_MY_COMMITMENT,third_person,remove,scripts/seed.py,n/a (not first-person),third_person
+68,Agent C is going to rename services/export.py.,NOT_MY_COMMITMENT,third_person,rename,services/export.py,n/a (not first-person),third_person
+69,She'll refactor test_item_creation.,NOT_MY_COMMITMENT,third_person,refactor,test_item_creation,n/a (not first-person),third_person
+70,He will update item_repository.,NOT_MY_COMMITMENT,third_person,update,item_repository,n/a (not first-person),third_person
+71,They're going to fix catalog_loader.,NOT_MY_COMMITMENT,third_person,fix,catalog_loader,n/a (not first-person),third_person
+72,Agent B will test price_calculator.,NOT_MY_COMMITMENT,third_person,test,price_calculator,n/a (not first-person),third_person
+73,Agent C is going to document stock_tracker.,NOT_MY_COMMITMENT,third_person,document,stock_tracker,n/a (not first-person),third_person
+74,She'll review label_formatter.,NOT_MY_COMMITMENT,third_person,review,label_formatter,n/a (not first-person),third_person
+75,He will add import_pipeline.,NOT_MY_COMMITMENT,third_person,add,import_pipeline,n/a (not first-person),third_person
+76,I think I will update repository.py.,NOT_A_COMMITMENT,hedged_suggestive,update,repository.py,n/a (hedged modal),hedged
+77,I think I will create api/routes.py.,NOT_A_COMMITMENT,hedged_suggestive,create,api/routes.py,n/a (hedged modal),hedged
+78,I think we should delete storage/schema.py.,NOT_A_COMMITMENT,hedged_suggestive,delete,storage/schema.py,n/a (hedged modal),hedged
+79,Maybe I should implement services/pricing.py.,NOT_A_COMMITMENT,hedged_suggestive,implement,services/pricing.py,n/a (hedged modal),hedged
+80,I guess I'll modify scripts/seed.py.,NOT_A_COMMITMENT,hedged_suggestive,modify,scripts/seed.py,n/a (hedged modal),hedged
+81,We could remove services/export.py.,NOT_A_COMMITMENT,hedged_suggestive,remove,services/export.py,n/a (hedged modal),hedged
+82,I think I will rename test_item_creation.,NOT_A_COMMITMENT,hedged_suggestive,rename,test_item_creation,n/a (hedged modal),hedged
+83,I think we should refactor item_repository.,NOT_A_COMMITMENT,hedged_suggestive,refactor,item_repository,n/a (hedged modal),hedged
+84,Maybe I should update catalog_loader.,NOT_A_COMMITMENT,hedged_suggestive,update,catalog_loader,n/a (hedged modal),hedged
+85,I guess I'll fix price_calculator.,NOT_A_COMMITMENT,hedged_suggestive,fix,price_calculator,n/a (hedged modal),hedged
+86,We could test stock_tracker.,NOT_A_COMMITMENT,hedged_suggestive,test,stock_tracker,n/a (hedged modal),hedged
+87,I think I will document label_formatter.,NOT_A_COMMITMENT,hedged_suggestive,document,label_formatter,n/a (hedged modal),hedged
+88,I think we should review import_pipeline.,NOT_A_COMMITMENT,hedged_suggestive,review,import_pipeline,n/a (hedged modal),hedged
+89,Maybe I should add result_cache.,NOT_A_COMMITMENT,hedged_suggestive,add,result_cache,n/a (hedged modal),hedged
+90,I guess I'll create config/defaults.py.,NOT_A_COMMITMENT,hedged_suggestive,create,config/defaults.py,n/a (hedged modal),hedged
+91,Did I say I would update repository.py?,NOT_A_COMMITMENT,question,update,repository.py,n/a (interrogative),question
+92,Did I say I would implement services/pricing.py?,NOT_A_COMMITMENT,question,implement,services/pricing.py,n/a (interrogative),question
+93,Should I modify scripts/seed.py?,NOT_A_COMMITMENT,question,modify,scripts/seed.py,n/a (interrogative),question
+94,Will you remove services/export.py?,NOT_A_COMMITMENT,question,remove,services/export.py,n/a (interrogative),question
+95,Did you rename test_item_creation?,NOT_A_COMMITMENT,question,rename,test_item_creation,n/a (interrogative),question
+96,Can someone refactor item_repository?,NOT_A_COMMITMENT,question,refactor,item_repository,n/a (interrogative),question
+97,Did I say I would update catalog_loader?,NOT_A_COMMITMENT,question,update,catalog_loader,n/a (interrogative),question
+98,Should I fix price_calculator?,NOT_A_COMMITMENT,question,fix,price_calculator,n/a (interrogative),question
+99,Will you test stock_tracker?,NOT_A_COMMITMENT,question,test,stock_tracker,n/a (interrogative),question
+100,Did you document label_formatter?,NOT_A_COMMITMENT,question,document,label_formatter,n/a (interrogative),question
+101,Can someone review import_pipeline?,NOT_A_COMMITMENT,question,review,import_pipeline,n/a (interrogative),question
+102,Did I say I would add result_cache?,NOT_A_COMMITMENT,question,add,result_cache,n/a (interrogative),question
+103,Should I create config/defaults.py?,NOT_A_COMMITMENT,question,create,config/defaults.py,n/a (interrogative),question
+104,Will you add utils/helpers.py?,NOT_A_COMMITMENT,question,add,utils/helpers.py,n/a (interrogative),question
+105,Did you create api/routes.py?,NOT_A_COMMITMENT,question,create,api/routes.py,n/a (interrogative),question
+106,I will probably update repository.py.,NOT_A_COMMITMENT,uncertainty_modifier,update,repository.py,n/a (hedge word inside pattern),uncertainty
+107,I will probably remove services/export.py.,NOT_A_COMMITMENT,uncertainty_modifier,remove,services/export.py,n/a (hedge word inside pattern),uncertainty
+108,I'll probably rename test_item_creation.,NOT_A_COMMITMENT,uncertainty_modifier,rename,test_item_creation,n/a (hedge word inside pattern),uncertainty
+109,I might refactor item_repository.,NOT_A_COMMITMENT,uncertainty_modifier,refactor,item_repository,n/a (hedge word inside pattern),uncertainty
+110,I may update catalog_loader.,NOT_A_COMMITMENT,uncertainty_modifier,update,catalog_loader,n/a (hedge word inside pattern),uncertainty
+111,I will possibly fix price_calculator.,NOT_A_COMMITMENT,uncertainty_modifier,fix,price_calculator,n/a (hedge word inside pattern),uncertainty
+112,I will probably test stock_tracker.,NOT_A_COMMITMENT,uncertainty_modifier,test,stock_tracker,n/a (hedge word inside pattern),uncertainty
+113,I'll probably document label_formatter.,NOT_A_COMMITMENT,uncertainty_modifier,document,label_formatter,n/a (hedge word inside pattern),uncertainty
+114,I might review import_pipeline.,NOT_A_COMMITMENT,uncertainty_modifier,review,import_pipeline,n/a (hedge word inside pattern),uncertainty
+115,I may add result_cache.,NOT_A_COMMITMENT,uncertainty_modifier,add,result_cache,n/a (hedge word inside pattern),uncertainty
+116,I will possibly create config/defaults.py.,NOT_A_COMMITMENT,uncertainty_modifier,create,config/defaults.py,n/a (hedge word inside pattern),uncertainty
+117,I will probably add utils/helpers.py.,NOT_A_COMMITMENT,uncertainty_modifier,add,utils/helpers.py,n/a (hedge word inside pattern),uncertainty
+118,I'll probably create api/routes.py.,NOT_A_COMMITMENT,uncertainty_modifier,create,api/routes.py,n/a (hedge word inside pattern),uncertainty
+119,I might delete storage/schema.py.,NOT_A_COMMITMENT,uncertainty_modifier,delete,storage/schema.py,n/a (hedge word inside pattern),uncertainty
+120,I may implement services/pricing.py.,NOT_A_COMMITMENT,uncertainty_modifier,implement,services/pricing.py,n/a (hedge word inside pattern),uncertainty
+121,I will update the repository.,NOT_A_COMMITMENT,vague_object,update,the repository,none (fails concrete-object rule),matches_pattern
+122,I'll update the pricing rules.,NOT_A_COMMITMENT,vague_object,update,the pricing rules,none (fails concrete-object rule),matches_pattern
+123,I will refactor the repository.,NOT_A_COMMITMENT,vague_object,refactor,the repository,none (fails concrete-object rule),matches_pattern
+124,I'll update the catalog.,NOT_A_COMMITMENT,vague_object,update,the catalog,none (fails concrete-object rule),matches_pattern
+125,I am going to fix the pricing rules stuff.,NOT_A_COMMITMENT,vague_object,fix,the pricing rules,none (fails concrete-object rule),matches_pattern
+126,I will test the listing page.,NOT_A_COMMITMENT,vague_object,test,the listing page,none (fails concrete-object rule),matches_pattern
+127,I'll document the item data.,NOT_A_COMMITMENT,vague_object,document,the item data,none (fails concrete-object rule),matches_pattern
+128,I am going to review the tests stuff.,NOT_A_COMMITMENT,vague_object,review,the tests,none (fails concrete-object rule),matches_pattern
+129,I will add the code.,NOT_A_COMMITMENT,vague_object,add,the code,none (fails concrete-object rule),matches_pattern
+130,I'll create the backend.,NOT_A_COMMITMENT,vague_object,create,the backend,none (fails concrete-object rule),matches_pattern
+131,I am going to add the frontend stuff.,NOT_A_COMMITMENT,vague_object,add,the frontend,none (fails concrete-object rule),matches_pattern
+132,I will create the config.,NOT_A_COMMITMENT,vague_object,create,the config,none (fails concrete-object rule),matches_pattern
+133,I'll delete the export service.,NOT_A_COMMITMENT,vague_object,delete,the export service,none (fails concrete-object rule),matches_pattern
+134,I am going to implement the data layer stuff.,NOT_A_COMMITMENT,vague_object,implement,the data layer,none (fails concrete-object rule),matches_pattern
+135,I will modify the API.,NOT_A_COMMITMENT,vague_object,modify,the API,none (fails concrete-object rule),matches_pattern
+136,The tests are flaky today.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+137,This function throws an exception sometimes.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+138,The build passed on the last run.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+139,Repository.py has a lot of unused imports.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+140,The pricing rules look fine to me.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+141,That endpoint returns a 500 on empty input.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+142,Someone already refactored the price calculator last week.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+143,The storage schema changed in the last migration.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+144,Our CI pipeline is slower than usual.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+145,The batch limiter config is outdated.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+146,I reviewed the pull request yesterday.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+147,The stock tracker was already updated.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+148,There's a bug in the label formatter.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+149,The cache layer has a memory leak.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
+150,The change history is missing timestamps.,NOT_A_COMMITMENT,unrelated,,,n/a (no commitment pattern),n/a
