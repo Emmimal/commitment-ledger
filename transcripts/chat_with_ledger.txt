@@ -1,0 +1,28 @@
+# Chat + Commitment Ledger: the same task and the same two agents, this
+# time depicted as checking the ledger before claiming work. The
+# software itself is identical to the chat-only run -- what differs is
+# the agents' behavior, which is what a live commitment ledger is meant
+# to change. See README.md for how this comparison should (and should
+# not) be read.
+Agent A: I will implement models/item.py.
+[EVENT] Agent A models/item.py STARTED
+Agent A: I'll implement repository/items.py.
+Agent B: I see repository/items.py is already being handled by Agent A.
+Agent B: I'll implement services/pricing.py.
+[EVENT] Agent A models/item.py IMPLEMENTED
+[EVENT] Agent A repository/items.py STARTED
+[EVENT] Agent B services/pricing.py STARTED
+Agent A: Starting on the repository now.
+Agent B: Starting on the pricing service.
+[EVENT] Agent A repository/items.py IMPLEMENTED
+[EVENT] Agent A repository/items.py TESTED
+Agent A: repository/items.py is implemented and the tests pass.
+[EVENT] Agent A repository/items.py REPORTED
+[EVENT] Agent B services/pricing.py IMPLEMENTED
+Agent B: services/pricing.py is implemented.
+Agent B: I will test tests/test_catalog.py.
+Agent B: Repository and pricing both look done.
+Agent B: I'll implement /items.
+[EVENT] Agent B /items STARTED
+[EVENT] Agent B /items IMPLEMENTED
+Agent B: /items is wired up and calling into both the repository and the pricing service.
