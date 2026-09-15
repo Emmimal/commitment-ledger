@@ -6,7 +6,7 @@ A pure-Python commitment-tracking layer for multi-agent coding systems — confl
 
 Multi-agent coding agents can communicate perfectly well and still duplicate work, miss a dependency, or report something as done that was never checked. This library turns a natural-language commitment ("I'll implement repository/items.py") into explicit, checkable state instead of leaving it buried in a chat transcript — no LLM, no database, no API, nothing beyond the Python standard library.
 
-> Read the full write-up on Towards Data Science → *(link added once published)*
+**Read the full write-up on Towards Data Science →** [Multi-Agent Coding Isn’t Enough — They Need a Commitment Layer to Keep Agents From Stepping on Each Other](https://towardsdatascience.com/author/emmimalp.alexander/)
 
 ## What It Does
 
